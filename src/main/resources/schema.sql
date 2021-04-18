@@ -1,0 +1,12 @@
+CREATE TABLE Billet
+(
+    id INTEGER AUTO_INCREMENT NOT NULL,
+    forNavn VARCHAR(255) NOT NULL,
+    etterNavn VARCHAR(255) NOT NULL,
+    filmType VARCHAR(255) NOT NULL,
+    tlfnnr VARCHAR(255) NOT NULL,
+    epost VARCHAR(255) NOT NULL,
+    antall int NOT NULL,
+    PRIMARY KEY (id)
+);
+
