@@ -1,6 +1,7 @@
 package com.example.demo;
 
 public class Billet {
+    int id;
     String filmType;
     int antall;
     String forNavn;
@@ -12,8 +13,9 @@ public class Billet {
 
     }
 
-    public Billet(String filmType, int antall, String forNavn,
+    public Billet(int id, String filmType, int antall, String forNavn,
                   String etterNavn, String tlfnnr, String epost) {
+        this.id= id;
         this.filmType = filmType;
         this.antall = antall;
         this.forNavn = forNavn;
@@ -70,6 +72,15 @@ public class Billet {
     public void setEpost(String epost) {
         this.epost = epost;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(String epost) {
+        this.id = id;
+    }
+
 
 }//Slutt
 
