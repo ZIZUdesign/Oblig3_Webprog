@@ -4,9 +4,9 @@ OsloMet brukernavn: s327667
 
 GitHub brukernavn: ZIZUdesign
 
-GitHub repo URL:https://github.com/ZIZUdesign/Oblig3_Webprog
+GitHub repo URL:https//github.com/ZIZUdesign/Oblig3_Webprog
 
-URL til Heroku app:https://dashboard.heroku.com/apps/webprogrammering3
+URL til Heroku app:https://dashboard.heroku.com/apps/webprogrammering
 
 Fullt navn: Zeray Tewelde Kahsay
 
