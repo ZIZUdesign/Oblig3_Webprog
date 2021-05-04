@@ -6,7 +6,7 @@ GitHub brukernavn: Zerfine
 
 GitHub repo URL: https://github.com/DATA1700/oblig-3-Zerfine
 
-URL til Heroku app: https://dashboard.heroku.com/apps/oblig33webprog/deploy/github
+URL til Heroku app:https://dashboard.heroku.com/apps/webprogrammering3
 
 Fullt navn: Zeray Tewelde Kahsay
 
