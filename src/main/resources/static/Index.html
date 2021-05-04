@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>oblig-3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <style>
+        body {
+            margin-top: 10px;
+            margin-right: 5px;
+            margin-bottom: 20px;
+            margin-left: 5px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+            "Apple Color Emoji", "Segoe UI Emoji",
+            "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 1.5rem;
+            font-width: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            background-color: #f8f9fa;
+            display: block;
+        }
+
+        th {
+            padding: 8px;
+            text-align: left;
+        }
+
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+
+    <script src="index.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <h1 class="header-page">Bestilling av kinobilletter</h1>
+            </div>
+
+            <div class="form-group">
+                <label for="valgFilm">Velg film:</label>
+                <select id="valgFilm" class="form-select" aria-label="default select example">
+                    <option selected>Velg film</option>
+                    <option>Action</option>
+                    <option>Romance</option>
+                    <option>Viking</option>
+                    <option>Kongens nei</option>
+                    <option>Dokumentar</option>
+                    <option>National Geogrfy</option>
+                </select><br/>
+            </div>
+
+            <div class="form-group">
+                <label for="antallFilm">Antall:</label>
+                <input type="text" id="antallFilm" size="5"/><span id="antallValidation" style="color: #ff0000"></span>
+            </div>
+
+            <form class="form">
+                <table>
+
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="fornavn">Fornavn:</label></td>
+                            <td><input type="text" id="fornavn" class="form-control"/></td>
+                            <td><span id="fornavnValidation" style="color: #ff0000"></span></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="etternavn">Etternavn:</label></td>
+                            <td><input type="text" id="etternavn" class="form-control"/></td>
+                            <td><span id="etternavnValidation" style="color: #ff0000"></span></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="telefonnr">Telefonnr:</label></td>
+                            <td><input type="text" id="telefonnr" class="form-control"/></td>
+                            <td><span id="tlfValidation" style="color: #ff0000"></span></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="epost">Epost:</label></td>
+                            <td><input type="text" id="epost" class="form-control"/></td>
+                            <td><span id="epostValidation" style="color: #ff0000"></span></td>
+                        </div>
+                    </tr>
+                </table>
+            </form>
+            <button class="btn btn-primary" onclick="submitForm()">Kjøp billett</button>
+            <br/>
+        </div>
+        <div class="col-md-8">
+            <div class="form-group">
+                <h1 class="header-page">Her Er Alle Billetter:</h1>
+            </div>
+            <div id="antallBillettene"></div>
+            <button class="btn btn-warning" onclick="slettAlleBilletter()">Slett Alle Billettene</button>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>
