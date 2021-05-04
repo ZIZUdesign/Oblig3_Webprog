@@ -2,9 +2,9 @@ Oblig 3
 =======
 OsloMet brukernavn: s327667
 
-GitHub brukernavn: Zerfine
+GitHub brukernavn: ZIZUdesign
 
-GitHub repo URL: https://github.com/DATA1700/oblig-3-Zerfine
+GitHub repo URL:https://github.com/ZIZUdesign/Oblig3_Webprog
 
 URL til Heroku app:https://dashboard.heroku.com/apps/webprogrammering3
 
